@@ -50,7 +50,7 @@ public class Parser extends RubyObject {
     private final RuntimeInfo info;
     private RubyString vSource;
     private RubyString createId;
-    private IRubyObject createAdditions;
+    private RubyObject createAdditions;
     private int maxNesting;
     private boolean allowNaN;
     private boolean symbolizeNames;
